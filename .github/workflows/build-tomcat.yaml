@@ -15,10 +15,10 @@ jobs:
           java -version
 
       - name: Check out Apache Tomcat
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: apache/tomcat
-          ref: master
+          ref: main
           path: ./tomcat
 
       - name: Set up Java 11
