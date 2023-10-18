@@ -42,7 +42,6 @@ jobs:
         run: |
           cd ./tomcat
           ant
-          ls -ltr ./tomcat
-          ls -ltl ./tomcat/conf
+          ls -ltr conf
 
 
