@@ -40,6 +40,6 @@ jobs:
       - name: Compile tomcat
         run: |
           cd ./tomcat
-          mvn
+          mvn validate
 
 
