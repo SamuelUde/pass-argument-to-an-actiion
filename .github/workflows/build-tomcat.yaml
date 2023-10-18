@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '11'
           java-package: jdk
           architecture: x64
 
@@ -40,6 +40,6 @@ jobs:
       - name: Compile tomcat
         run: |
           cd ./tomcat
-          ant
+          mvn
 
 
